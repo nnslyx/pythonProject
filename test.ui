@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>5</y>
+      <width>401</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>选取单位</string>
+    </property>
+    <widget class="QComboBox" name="comboBox">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>12</y>
+       <width>171</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>全部大队</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>一大队|45010701</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>二大队|45010301</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>三大队|45010900</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>四大队|45010200</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>五大队|45010501</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>六大队|45010800</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>七大队|45010302</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>八大队|45010702</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>九大队|45010303</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>十大队|45010502</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>十一大队|45012202</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>十二大队|45019904</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>十三大队|45019905</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>十四大队|45010800</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>十五大队|45012201</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>高速一大队|45019906</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>机动大队|45019901</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>疏导大队|45019902</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>机场大队|45019907</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>横县大队|45012700</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>宾阳县大队|45012600</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>上林县大队|45012500</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>马山县大队|45012400</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>隆安县大队|45012300</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>指挥中心|45010000</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>指挥中心2|45019908</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QRadioButton" name="radioButton">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>15</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>支队</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_2">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>15</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>大队</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>419</x>
+      <y>5</y>
+      <width>371</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>起止时间</string>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>47</x>
+       <y>15</y>
+       <width>317</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="2">
+       <widget class="QTimeEdit" name="timeEdit_start">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4" alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="maximumSize">
+         <size>
+          <width>76</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>至</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QDateEdit" name="dateEdit_end">
+        <property name="displayFormat">
+         <string>yyyy-M-d</string>
+        </property>
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4" alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_2">
+        <property name="maximumSize">
+         <size>
+          <width>20</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>至</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="radioButton_4">
+        <property name="text">
+         <string>精确到日</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="QTimeEdit" name="timeEdit_end">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="radioButton_3">
+        <property name="text">
+         <string>精确到分钟</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QDateEdit" name="dateEdit_start">
+        <property name="displayFormat">
+         <string>yyyy-M-d</string>
+        </property>
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" rowspan="2">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>comboBox</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>187</x>
+     <y>49</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>240</x>
+     <y>52</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>timeEdit_start</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>563</x>
+     <y>78</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>581</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>timeEdit_end</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>532</x>
+     <y>87</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>696</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
